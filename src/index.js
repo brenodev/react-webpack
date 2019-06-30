@@ -1,3 +1,9 @@
-var sum = require('./App')
+var React = require('react')
+var ReactDOM = require('react-dom')
 
-console.log(sum(1, 5))
+var Title = require('./App')
+
+ReactDOM.render(
+    React.createElement(Title),
+    document.querySelector('[data-js="App"]')
+)
