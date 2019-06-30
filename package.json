@@ -1,0 +1,13 @@
+{
+  "name": "start-project",
+  "version": "1.0.0",
+  "description": "react configuracoes basicas",
+  "main": "index.js",
+  "repository": "https://github.com/brenodev/react-webpack.git",
+  "author": "Breno Guilherme de Souza Lopes",
+  "license": "0116",
+  "devDependencies": {
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.5"
+  }
+}
